@@ -6,48 +6,97 @@ export function SignUp() {
   const [email, setEmail] = useState();
   const [password, setPassword] = useState();
   const [passwordRepeat, setPasswordRepeat] = useState();
+  const [apiProgress, setApiProgress] = useState();
+  const [successMessage, setSuccessMessage] = useState();
 
   const onSubmit = (event) => {
     event.preventDefault();
-    axios.post("/api/v1/users", {
-      username,
-      email,
-      password,
-    });
+    setSuccessMessage();
+    setApiProgress(true);
+    axios
+      .post("/api/v1/users", {
+        username,
+        email,
+        password,
+      })
+      .then((response) => {
+        setSuccessMessage(response.data.message);
+      })
+      .finally(() => setApiProgress(false));
   };
   return (
-    <form onSubmit={onSubmit}>
-      <h1>Sign Up</h1>
-      <div>
-        <label htmlFor="username">Username</label>
-        <input
-          id="username"
-          onChange={(event) => setUsername(event.target.value)}
-        />
+    <div className="container">
+      <div className="col-lg-6 offset-lg-3 col-sm-8 offset-2">
+        <form className="card" onSubmit={onSubmit}>
+          <div className="text-center card-header">
+            <h1>Sign Up</h1>
+          </div>
+          <div className="card-body">
+            <div className="mb-3">
+              <label htmlFor="username" className="form-label">
+                Username
+              </label>
+              <input
+                id="username"
+                className="form-control"
+                onChange={(event) => setUsername(event.target.value)}
+              />
+            </div>
+
+            <div className="mb-3">
+              <label htmlFor="email" className="form-label">
+                Email
+              </label>
+              <input
+                id="email"
+                className="form-control"
+                onChange={(event) => setEmail(event.target.value)}
+              />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="password" className="form-label">
+                Password
+              </label>
+              <input
+                id="password"
+                type="password"
+                className="form-control"
+                onChange={(event) => setPassword(event.target.value)}
+              />
+            </div>
+            <div className="mb-3">
+              <label htmlFor="passwordRepeat" className="form-label">
+                Repeat Password
+              </label>
+              <input
+                id="passwordRepeat"
+                type="password"
+                className="form-control"
+                onChange={(event) => setPasswordRepeat(event.target.value)}
+              />
+            </div>
+            {successMessage && (
+              <div className="alert alert-success">{successMessage}</div>
+            )}
+            <div className="text-center">
+              <button
+                className="btn btn-primary"
+                disabled={
+                  apiProgress || !password || password !== passwordRepeat
+                }
+              >
+                {apiProgress && (
+                  <span
+                    className="spinner-border spinner-border-sm"
+                    aria-hidden="true"
+                  ></span>
+                )}
+                Sign Up
+              </button>
+            </div>
+          </div>
+        </form>
       </div>
-      <div>
-        <label htmlFor="email">Email</label>
-        <input id="email" onChange={(event) => setEmail(event.target.value)} />
-      </div>
-      <div>
-        <label htmlFor="password">Password</label>
-        <input
-          id="password"
-          type="password"
-          onChange={(event) => setPassword(event.target.value)}
-        />
-      </div>
-      <div>
-        <label htmlFor="passwordRepeat">Repeat Password</label>
-        <input
-          id="passwordRepeat"
-          type="password"
-          onChange={(event) => setPasswordRepeat(event.target.value)}
-        />
-      </div>
-      <button disabled={!password || password !== passwordRepeat}>
-        Sign Up
-      </button>
-    </form>
+    </div>
   );
 }
