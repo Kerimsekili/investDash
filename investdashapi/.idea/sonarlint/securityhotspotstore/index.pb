@@ -13,3 +13,9 @@ j
 .src/main/java/com/investdash/ws/user/User.java,4/7/476a0d3ef5c7fbd6f243445a0101e6ac946893d6
 h
 8src/main/java/com/investdash/ws/user/UserController.java,b/9/b906a4ca2a01157a99598654104b3fcfcc3ea9de
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8/8/88a9255124c95bdc913197c120a8d560edc59c8e
+S
+#.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
+b
+2src/main/java/com/investdash/ws/WsApplication.java,d/f/df09f74650ec901d1d6598aba413049246c33419
