@@ -19,3 +19,17 @@ S
 #.idea/sonarlint/issuestore/index.pb,9/f/9fe84ebb15faf917b7def6236dba604453cc61e0
 b
 2src/main/java/com/investdash/ws/WsApplication.java,d/f/df09f74650ec901d1d6598aba413049246c33419
+Å
+Q.idea/sonarlint/securityhotspotstore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,9/0/909762385fc6eb20f922a91c6865741308b57f2c
+Å
+Q.idea/sonarlint/securityhotspotstore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,b/b/bbf202272a96de5cd6b6828ffdc55fb3ce45289c
+c
+3src/main/java/com/investdash/ws/error/ApiError.java,d/c/dcb0b2c9e1117191731cbed5ea8abba9cd18bdb9
+Å
+Q.idea/sonarlint/securityhotspotstore/d/f/df09f74650ec901d1d6598aba413049246c33419,3/7/3711e285f74afe122e949bffa67199f728e096ac
+w
+G.idea/sonarlint/issuestore/8/8/88a9255124c95bdc913197c120a8d560edc59c8e,a/e/ae9ddf453f55affea2d6b9e3973cac1eb2efb4e1
+w
+G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
+w
+G.idea/sonarlint/issuestore/d/f/df09f74650ec901d1d6598aba413049246c33419,1/4/14f0fd3814b675920e5bf358da5f183136d3d1fd
