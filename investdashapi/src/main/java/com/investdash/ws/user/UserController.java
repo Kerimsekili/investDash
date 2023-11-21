@@ -2,6 +2,7 @@ package com.investdash.ws.user;
 
 import com.investdash.ws.error.ApiError;
 import com.investdash.ws.shared.GenericMessage;
+import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -17,7 +18,7 @@ public class UserController {
     UserService userService;
 
     @PostMapping("api/v1/users")
-    ResponseEntity<?> createUser(@RequestBody User user){ ApiError apiError = new ApiError();
+    ResponseEntity<?> createUser(@Valid @RequestBody User user){ ApiError apiError = new ApiError();
         apiError.setPath("/api/v1/users");
         apiError.setMessage("Validation error");
         apiError.setStatus(400);
