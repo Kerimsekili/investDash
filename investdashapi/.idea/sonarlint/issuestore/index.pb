@@ -33,3 +33,9 @@ w
 G.idea/sonarlint/issuestore/d/f/df09f74650ec901d1d6598aba413049246c33419,1/4/14f0fd3814b675920e5bf358da5f183136d3d1fd
 c
 3src/main/java/com/investdash/ws/error/ApiError.java,d/c/dcb0b2c9e1117191731cbed5ea8abba9cd18bdb9
+q
+Asrc/main/java/com/investdash/ws/user/NotUniqueEmailException.java,f/a/fa03a48ac5f5049df6eb5a5e32af9bf8aeab92fa
+p
+@src/main/java/com/investdash/ws/user/validation/UniqueEmail.java,9/3/93ecc268530af399260665e1740772fd168878a1
+y
+Isrc/main/java/com/investdash/ws/user/validation/UniqueEmailValidator.java,e/4/e470b08a1426e0419d369dcde79975220e53c3f1

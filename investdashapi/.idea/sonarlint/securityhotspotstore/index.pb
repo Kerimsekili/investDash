@@ -33,3 +33,9 @@ w
 G.idea/sonarlint/issuestore/9/f/9fe84ebb15faf917b7def6236dba604453cc61e0,f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f
 w
 G.idea/sonarlint/issuestore/d/f/df09f74650ec901d1d6598aba413049246c33419,1/4/14f0fd3814b675920e5bf358da5f183136d3d1fd
+q
+Asrc/main/java/com/investdash/ws/user/NotUniqueEmailException.java,f/a/fa03a48ac5f5049df6eb5a5e32af9bf8aeab92fa
+p
+@src/main/java/com/investdash/ws/user/validation/UniqueEmail.java,9/3/93ecc268530af399260665e1740772fd168878a1
+y
+Isrc/main/java/com/investdash/ws/user/validation/UniqueEmailValidator.java,e/4/e470b08a1426e0419d369dcde79975220e53c3f1
