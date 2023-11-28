@@ -39,3 +39,11 @@ p
 @src/main/java/com/investdash/ws/user/validation/UniqueEmail.java,9/3/93ecc268530af399260665e1740772fd168878a1
 y
 Isrc/main/java/com/investdash/ws/user/validation/UniqueEmailValidator.java,e/4/e470b08a1426e0419d369dcde79975220e53c3f1
+w
+G.idea/sonarlint/issuestore/f/a/fa03a48ac5f5049df6eb5a5e32af9bf8aeab92fa,1/9/19d848ba9c7b5eb761862bedaeb3792f16e4c279
+Å
+Q.idea/sonarlint/securityhotspotstore/e/4/e470b08a1426e0419d369dcde79975220e53c3f1,3/a/3a5297fa11904d9fd3a2bb91cb18fa9123cdc804
+Å
+Q.idea/sonarlint/securityhotspotstore/f/a/fa03a48ac5f5049df6eb5a5e32af9bf8aeab92fa,5/1/51b328c0a628bbc59b65036a397c577018d37453
+Å
+Q.idea/sonarlint/securityhotspotstore/9/3/93ecc268530af399260665e1740772fd168878a1,7/0/70bba5478c35168cc46b110cec09690435c70b29
