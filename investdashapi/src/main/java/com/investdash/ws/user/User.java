@@ -17,15 +17,15 @@ public class User {
     @GeneratedValue
     long id;
 
-    @Size(min = 4, max = 50, message = "Username must be between 4 and 50 characters")
-    @NotBlank
+    @Size(min = 4, max = 50)
+    @NotBlank(message = "{investdash.constraint.username.notblank}")
     String username;
     @NotBlank
     @Email
     @UniqueEmail
     String email;
     @Size(min = 8,max = 255)
-    @Pattern(regexp="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$")
+    @Pattern(regexp="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$",message = "{investdash.constraint.password.pattern}")
     String password;
 
     public String getEmail() {

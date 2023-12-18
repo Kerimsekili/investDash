@@ -13,7 +13,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface UniqueEmail {
 
-    String message() default "E-mail in use";
+    String message() default "{investdash.constraint.email.notunique}";
 
     Class<?>[] groups() default {};
 
