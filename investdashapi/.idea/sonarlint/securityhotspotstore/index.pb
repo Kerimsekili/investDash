@@ -51,3 +51,13 @@ d
 4src/main/java/com/investdash/ws/shared/Messages.java,6/8/68fa4543a1ab5574faf37cee95212e214507f8f0
 Å
 Q.idea/sonarlint/securityhotspotstore/6/8/68fa4543a1ab5574faf37cee95212e214507f8f0,6/e/6ef6250080bf316ad9314fccb4e214d08d1e4580
+{
+Ksrc/main/java/com/investdash/ws/user/exception/NotUniqueEmailException.java,6/3/63bf936d21997d14c3e3702d1f1ecba578ad9a14
+Å
+Q.idea/sonarlint/securityhotspotstore/6/e/6ef6250080bf316ad9314fccb4e214d08d1e4580,4/0/40d3335b770a72247891ec783385653de7958423
+w
+G.idea/sonarlint/issuestore/6/e/6ef6250080bf316ad9314fccb4e214d08d1e4580,3/b/3be6d65ead95702bde3fec350741b44f6a8bc93e
+Å
+Q.idea/sonarlint/securityhotspotstore/6/3/63bf936d21997d14c3e3702d1f1ecba578ad9a14,3/1/3181cba7a133b3d9610114068bdbcbfa0444bf50
+w
+G.idea/sonarlint/issuestore/6/3/63bf936d21997d14c3e3702d1f1ecba578ad9a14,b/3/b3243cee23a57979f7827d470f97e3c1344c6ec6

@@ -3,6 +3,7 @@ package com.investdash.ws.user;
 import com.investdash.ws.error.ApiError;
 import com.investdash.ws.shared.GenericMessage;
 import com.investdash.ws.shared.Messages;
+import com.investdash.ws.user.exception.NotUniqueEmailException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.i18n.LocaleContextHolder;

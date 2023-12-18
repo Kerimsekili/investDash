@@ -1,5 +1,6 @@
 package com.investdash.ws.user;
 
+import com.investdash.ws.user.exception.NotUniqueEmailException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
