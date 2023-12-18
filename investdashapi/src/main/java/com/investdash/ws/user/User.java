@@ -1,7 +1,7 @@
 package com.investdash.ws.user;
 
 
-import com.investdash.ws.user.validation.UniqueEmail;
+
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
@@ -22,7 +22,7 @@ public class User {
     String username;
     @NotBlank
     @Email
-    @UniqueEmail
+    //@UniqueEmail
     String email;
     @Size(min = 8,max = 255)
     @Pattern(regexp="^(?=.*[a-z])(?=.*[A-Z])(?=.*\\d).*$",message = "{investdash.constraint.password.pattern}")

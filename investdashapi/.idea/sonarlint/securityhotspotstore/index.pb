@@ -47,3 +47,7 @@ Q.idea/sonarlint/securityhotspotstore/e/4/e470b08a1426e0419d369dcde79975220e53c3
 Q.idea/sonarlint/securityhotspotstore/f/a/fa03a48ac5f5049df6eb5a5e32af9bf8aeab92fa,5/1/51b328c0a628bbc59b65036a397c577018d37453
 Å
 Q.idea/sonarlint/securityhotspotstore/9/3/93ecc268530af399260665e1740772fd168878a1,7/0/70bba5478c35168cc46b110cec09690435c70b29
+d
+4src/main/java/com/investdash/ws/shared/Messages.java,6/8/68fa4543a1ab5574faf37cee95212e214507f8f0
+Å
+Q.idea/sonarlint/securityhotspotstore/6/8/68fa4543a1ab5574faf37cee95212e214507f8f0,6/e/6ef6250080bf316ad9314fccb4e214d08d1e4580
