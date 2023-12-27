@@ -1,4 +1,6 @@
 
+k
+java:S1192("NDefine a constant instead of duplicating this literal "/api/v1/users" 3 times.(âôú8¯’ØÒÊ1
 _
-java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¦ÙÂìÇ1
-X	java:S125"<This block of commented-out lines of code should be removed.(ÎÜ„Ğ8§ÙÂìÇ1
+java:S6813"BRemove this field injection and use constructor injection instead.(êæÄŞ8¦ÙÂìÇ1
+X	java:S125"<This block of commented-out lines of code should be removed.(ÎÜ„Ğ8§ÙÂìÇ1
