@@ -1,0 +1,55 @@
+{
+  "groups": [
+    {
+      "name": "investdash",
+      "type": "com.investdash.ws.configuration.InvestdashProperties",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties"
+    },
+    {
+      "name": "investdash.client",
+      "type": "com.investdash.ws.configuration.InvestdashProperties$Client",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties",
+      "sourceMethod": "getClient()"
+    },
+    {
+      "name": "investdash.email",
+      "type": "com.investdash.ws.configuration.InvestdashProperties$Email",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties",
+      "sourceMethod": "getEmail()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "investdash.client.host",
+      "type": "java.lang.String",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Client"
+    },
+    {
+      "name": "investdash.email.from",
+      "type": "java.lang.String",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Email"
+    },
+    {
+      "name": "investdash.email.host",
+      "type": "java.lang.String",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Email"
+    },
+    {
+      "name": "investdash.email.password",
+      "type": "java.lang.String",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Email"
+    },
+    {
+      "name": "investdash.email.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Email",
+      "defaultValue": 0
+    },
+    {
+      "name": "investdash.email.username",
+      "type": "java.lang.String",
+      "sourceType": "com.investdash.ws.configuration.InvestdashProperties$Email"
+    }
+  ],
+  "hints": []
+}

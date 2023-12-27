@@ -1,1 +1,15 @@
-/Users/kerim/IdeaProjects/ws/src/main/java/com/investdash/ws/WsApplication.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/exception/ActivationNotificationException.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/WsApplication.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/UserRepository.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/validation/UniqueEmailValidator.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/validation/UniqueEmail.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/configuration/InvestdashProperties.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/UserService.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/dto/UserCreate.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/shared/Messages.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/exception/NotUniqueEmailException.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/email/EmailService.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/error/ApiError.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/shared/GenericMessage.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/User.java
+/Users/kerim/Repositories/investDash/investdashapi/src/main/java/com/investdash/ws/user/UserController.java
