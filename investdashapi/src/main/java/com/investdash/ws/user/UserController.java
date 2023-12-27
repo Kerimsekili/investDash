@@ -3,6 +3,7 @@ package com.investdash.ws.user;
 import com.investdash.ws.error.ApiError;
 import com.investdash.ws.shared.GenericMessage;
 import com.investdash.ws.shared.Messages;
+import com.investdash.ws.user.dto.UserCreate;
 import com.investdash.ws.user.exception.NotUniqueEmailException;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,11 +27,9 @@ public class UserController {
 //    MessageSource messageSource;
 
     @PostMapping("api/v1/users")
-    GenericMessage createUser(@Valid @RequestBody User user) {
-        System.err.println("-----" + LocaleContextHolder.getLocale().getLanguage());
-
-        userService.save(user);
-        String message = Messages.getMessageForLocale("investdash.create.user.success.message",LocaleContextHolder.getLocale());
+    GenericMessage createUser(@Valid @RequestBody UserCreate user) {
+        userService.save(user.toUser());
+        String message = Messages.getMessageForLocale("investdash.create.user.success.message", LocaleContextHolder.getLocale());
         return new GenericMessage(message);
     }
 

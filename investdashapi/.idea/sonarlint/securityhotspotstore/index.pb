@@ -55,3 +55,5 @@ G.idea/sonarlint/issuestore/6/e/6ef6250080bf316ad9314fccb4e214d08d1e4580,3/b/3b
 Q.idea/sonarlint/securityhotspotstore/6/3/63bf936d21997d14c3e3702d1f1ecba578ad9a14,3/1/3181cba7a133b3d9610114068bdbcbfa0444bf50
 w
 G.idea/sonarlint/issuestore/6/3/63bf936d21997d14c3e3702d1f1ecba578ad9a14,b/3/b3243cee23a57979f7827d470f97e3c1344c6ec6
+h
+8src/main/java/com/investdash/ws/user/dto/UserCreate.java,8/0/80783d716cf1088a716f39cb7cb303c7541a700b
