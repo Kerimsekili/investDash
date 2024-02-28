@@ -7,6 +7,15 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredPathMasks">
+      <list>
+        <option value="#" />
+        <option value="file:" />
+        <option value="~/.gitignore_global" />
+        <option value=".DS_Store" />
+        <option value=".idea" />
+      </list>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="17" project-jdk-type="JavaSDK" />
   <component name="ProjectType">
