@@ -2,6 +2,7 @@ package com.investdash.ws.user;
 
 import com.investdash.ws.email.EmailService;
 import com.investdash.ws.user.exception.ActivationNotificationException;
+import com.investdash.ws.user.exception.InvalidTokenException;
 import com.investdash.ws.user.exception.NotUniqueEmailException;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,7 +36,15 @@ public class UserService {
         } catch (MailException ex) {
             throw new ActivationNotificationException();
         }
+    }
 
-
+    public void activateUser(String token){
+        User inDB = userRepository.findByActivationToken(token);
+        if(inDB==null){
+            throw new InvalidTokenException();
+        }
+        inDB.setActive(true);
+        inDB.setActivationToken(null);
+        userRepository.save(inDB);
     }
 }
