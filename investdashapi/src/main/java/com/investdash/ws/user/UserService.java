@@ -12,6 +12,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.UUID;
 
 @Service
@@ -46,5 +47,9 @@ public class UserService {
         inDB.setActive(true);
         inDB.setActivationToken(null);
         userRepository.save(inDB);
+    }
+
+    public List<User> getUsers(){
+        return userRepository.findAll();
     }
 }

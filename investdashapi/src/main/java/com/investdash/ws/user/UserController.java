@@ -15,6 +15,7 @@ import org.springframework.validation.FieldError;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.List;
 import java.util.stream.Collectors;
 
 @RestController
@@ -30,6 +31,11 @@ public class UserController {
         userService.save(user.toUser());
         String message = Messages.getMessageForLocale("investdash.create.user.success.message", LocaleContextHolder.getLocale());
         return new GenericMessage(message);
+    }
+
+    @GetMapping("/api/v1/users")
+    List<User> getUsers(){
+        return userService.getUsers();
     }
 
     @PatchMapping("/api/v1/users/{token}/active")
